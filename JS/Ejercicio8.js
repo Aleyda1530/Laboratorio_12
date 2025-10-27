@@ -6,7 +6,6 @@ var convertirAMayusculas = function(texto) {
     return resultado;
 };
 
-// Interacción con el usuario
 var texto = prompt("Ingrese un texto:");
 
 if (texto === null)
