@@ -6,9 +6,9 @@ var saludo = (nombre) => {
 
 var nombre = prompt("Ingrese su nombre:");
 
-if (nombre === null || nombre.trim() === "") {
+if (nombre === null || nombre.trim() === "")
     alert("Debe ingresar un nombre válido.");
-} else {
+else {
     var mensaje = saludo(nombre);
     alert(mensaje);
 }
