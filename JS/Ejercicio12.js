@@ -1,14 +1,11 @@
 // Ejercicio 12 - Componer Transformaciones
 // Aleyda Quispe
-
 var convertirMayusculas = (texto) => {
     return texto.toUpperCase();
 };
-
 var agregarExclamacion = (texto) => {
     return texto + "!";
 };
-
 var componerTransformaciones = (funcion1, funcion2) => {
     return (texto) => {
         return funcion1(funcion2(texto));
